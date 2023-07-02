@@ -18,7 +18,8 @@ const TodoList = () => {
    setInputValue(todo)
     const edit = todos.splice(id , 1, todo)
    console.log(setTodos(edit)) 
-    // commneting to test the branch 
+    // commneting to test the branch
+    // adding comment from second branch
   };
 
   return (
